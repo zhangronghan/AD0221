@@ -78,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
                                 public void run() {
                                     result.setText(str.toString());
                                 }
+
                             });
                         } catch (MalformedURLException e1) {
                             e1.printStackTrace();
